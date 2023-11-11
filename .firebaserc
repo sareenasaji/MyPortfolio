@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fir-hosting-5117a"
-  }
+    "default": "sareenasaji-97514",
+    "hosting": "sareenasaji-97514"
+  },
+  "targets": {},
+  "etags": {}
 }
