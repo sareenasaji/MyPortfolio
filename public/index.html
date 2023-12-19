@@ -1,46 +1,89 @@
 
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="actual-integrity-value-goes-here" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('https://cdn.wallpapersafari.com/40/92/HvIEnr.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
     <title>Portfolio</title>
 </head>
-<body class="font-sans bg-cover bg-center" style="background-image: url('https://cdn.wallpapersafari.com/40/92/HvIEnr.png');">
 
-  <nav class="flex flex-col items-end justify-end md:flex-row bg-white-800">
-     <a href="#portfolio" class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Portfolio</a>
-      <a href="#aboutme" class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">About Me</a>
-      <a href="#work" class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Work</a>
-      <a href="#resume" class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Resume</a>
-      <a href="#projects" class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Projects</a>
-      <a href="#contactme" class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Contact Me</a>
-  </nav>
+<body class="font-sans bg-cover bg-center"
+    style="background-image: url('https://cdn.wallpapersafari.com/40/92/HvIEnr.png');">
 
-  <section id="portfolio" class="flex items-center justify-between px-4 py-8">
-    <div class="w-[100px] md:w-[100px] p-20">
-      <h1 class="text-3xl font-bold mb-4 tracking-wide font-serif text-white animate__animated animate__zoomIn">Hi,</h1>
-      <h1 class="text-3xl font-bold mb-4 font-serif text-white animate__animated animate__zoomIn">I'm Sareena</h1>
-      <h1 class="text-3xl font-bold mb-4 font-serif text-white animate__animated animate__zoomIn">Web developer</h1>
-      <p class="text-lg font-serif animate__animated animate__zoomIn text-white">
-        A Master of Computer Applications (MCA) graduate<br>
-        Possesses advanced knowledge and skills in computer science,<br>
-        Ready to contribute to the ever-evolving field of technology.
-      </p>
+    <nav class="flex flex-col items-end justify-end md:flex-row bg-white-800">
+        <a href="#portfolio"
+            class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Portfolio</a>
+        <a href="#aboutme"
+            class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">About
+            Me</a>
+        <a href="#work"
+            class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Work</a>
+        <a href="#resume"
+            class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Resume</a>
+        <a href="#projects"
+            class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Projects</a>
+        <a href="#contactme"
+            class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Contact
+            Me</a>
+    </nav>
+    <section id="portfolio" class="flex items-center justify-between px-4 py-8">
+        <div class="relative border-2 shadow-xl flex w-auto m-4  my-6 bg-cyan-500 overflow-hidden rounded-md flex-col  md:flex-row " id="aboutme">
+            <div class="w-[100px] md:w-[100px] p-20">
+                <h1 class="text-3xl font-bold mb-4 tracking-wide font-serif text-white animate__animated animate__zoomIn">Hi,</h1>
+                <h1 class="text-3xl font-bold mb-4 font-serif text-white animate__animated animate__zoomIn">I'm Sareena</h1>
+                <h1 class="text-3xl font-bold mb-4 font-serif text-white animate__animated animate__zoomIn">Web developer</h1>
+                <p class="text-lg font-serif animate__animated animate__zoomIn text-white">
+                    A Master of Computer Applications (MCA) graduate<br>
+                    Possesses advanced knowledge and skills in computer science,<br>
+                    Ready to contribute to the ever-evolving field of technology.
+                </p>
+            </div>
+            </div>
+            <img src="https://i.postimg.cc/fRnXZJDB/sareenaportpic.jpg" alt="Round Image"
+                class="rounded-full w-64 h-64 mr-auto">
+    </section>
+    <div class="social-icon mt-8 text-center">
+        <ul class="flex justify-center">
+            <li class="list-none mx-4">
+                <a href="https://www.facebook.com/messages/t/SareenaSaji" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook text-black text-2xl line-height-16 transition duration-300"></i>
+                </a>
+            </li>
+            <li class="list-none mx-4">
+                <a href="https://www.linkedin.com/in/sareena-saji-4671451b2" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin text-black text-2xl line-height-16 transition duration-300"></i>
+                </a>
+            </li>
+            <li class="list-none mx-4">
+                <a href="https://www.instagram.com/_sareenasaji?igshid=YzAwZjE1ZTI0Zg==" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram text-black text-2xl line-height-16 transition duration-300"></i>
+                </a>
+            </li>
+            <li class="list-none mx-4">
+                <a href="https://github.com/sareenasaji" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github text-black text-2xl line-height-16 transition duration-300"></i>
+                </a>
+            </li>
+            <li class="list-none mx-4">
+                <a href="mailto:sareenasaji2000@gmail.com" target="_blank" aria-label="Email">
+                    <i class="far fa-envelope text-black text-2xl line-height-16 transition duration-300"></i>
+                </a>
+            </li>
+        </ul>
     </div>
-    <img src="https://i.postimg.cc/fRnXZJDB/sareenaportpic.jpg" alt="Round Image" class="rounded-full w-64 h-64 mr-auto">
-
-  </section>
 
 </body>
+
 </html>
