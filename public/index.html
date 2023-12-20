@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="actual-integrity-value-goes-here" crossorigin="anonymous">
     <style>
         body {
-          
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -17,7 +16,7 @@
     </style>
     <title>Portfolio</title>
 </head>
-<!-- Navigation bars -->
+
 <body class="font-sans bg-cover bg-center"
     style="background-image: url('https://cdn.wallpapersafari.com/40/92/HvIEnr.png');">
 
@@ -37,86 +36,110 @@
             class="text-white no-underline text-lg hover:text-black transition-colors duration-300 px-4 py-2">Contact
             Me</a>
     </nav>
+
     <section id="portfolio" class="flex items-center justify-between px-4 py-8">
-        <div class="relative border-2 shadow-xl flex w-auto m-4  my-6 bg-cyan-500 overflow-hidden rounded-md flex-col  md:flex-row " id="aboutme">
+
+        <div class="relative border-2 shadow-xl flex w-auto m-4  my-6 bg-cyan-500 overflow-hidden rounded-md flex-col md:flex-row "
+            id="aboutme">
             <div class="w-[100px] md:w-[100px] p-20">
                 <h1 class="text-3xl font-bold mb-4 tracking-wide font-serif text-white animate__animated animate__zoomIn">Hi,</h1>
-                <h1 class="text-3xl font-bold mb-4 font-serif text-white animate__animated animate__zoomIn">I'm Sareena</h1>
-                <h1 class="text-3xl font-bold mb-4 font-serif text-white animate__animated animate__zoomIn">Web developer</h1>
+                <h1 class="text-3xl font-bold mb-4 font-serif text-white animate__animated animate__zoomIn">I'm
+                    Sareena</h1>
+                <h1 class="text-3xl font-bold mb-4 font-serif text-white animate__animated animate__zoomIn">Web
+                    developer</h1>
                 <p class="text-lg font-serif animate__animated animate__zoomIn text-white">
                     A Master of Computer Applications (MCA) graduate<br>
                     Possesses advanced knowledge and skills in computer science,<br>
                     Ready to contribute to the ever-evolving field of technology.
                 </p>
             </div>
-            </div>
             <img src="https://i.postimg.cc/fRnXZJDB/sareenaportpic.jpg" alt="Round Image"
                 class="rounded-full w-64 h-64 mr-auto">
+        </div>
     </section>
-    <section id="aboutme" class="flex items-center justify-between px-4 py-8 bg-black text-white">
-        <p class="mb-4">I am Sareena Saji, a passionate Web Developer currently serving as an Intern at Muggle Works. Hailing from the vibrant state of Kerala, India, I bring a blend of technical expertise and creative flair to the field of web development. With a strong foundation in languages such as Php, Java, and C++, I thrive on solving complex problems and leveraging object-oriented programming and database management skills. My journey in computer science has been enriched by practical experiences, including personal projects like Latex Management and Veggie Online, where I applied HTML, CSS, JavaScript, and PHP to create innovative web applications.      
-    My journey reflects not just a coder, but a tech enthusiast with a diverse set of skills and a zest for innovation.</p> 
-     </section>
-     <script>
-         function toggleAboutMe() {
-             var aboutMeSection = document.getElementById("aboutme");
-             aboutMeSection.classList.toggle("hidden");
-         }
-     </script>
-   <div class="w-auto flex flex-col m-2 gap-4 bg-cyan-300 p-6 justify-evenly md:flex-row" id="contactme">
-    <div class="social-icon mt-8 text-center">
-        <ul class="flex justify-center">
-            <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
-                <a href="https://www.facebook.com/messages/t/SareenaSaji" target="_blank" aria-label="Facebook">
-                    <i class="fab fa-facebook text-black text-3xl line-height-16"></i>
-                </a>
-            </li>
-            <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
-                <a href="https://www.linkedin.com/in/sareena-saji-4671451b2" target="_blank" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin text-black text-3xl line-height-16"></i>
-                </a>
-            </li>
-            <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
-                <a href="https://www.instagram.com/_sareenasaji?igshid=YzAwZjE1ZTI0Zg==" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram text-black text-3xl line-height-16"></i>
-                </a>
-            </li>
-            <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
-                <a href="https://github.com/sareenasaji" target="_blank" aria-label="GitHub">
-                    <i class="fab fa-github text-black text-3xl line-height-16"></i>
-                </a>
-            </li>
-            <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
-                <a href="mailto:sareenasaji2000@gmail.com" target="_blank" aria-label="Email">
-                    <i class="far fa-envelope text-black text-3xl line-height-16"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
 
-    
-  
-    <div class="right">
-        <form name="submit-to-google-sheet" class="flex bg-cyan-400 px-4 py-14 md:px-12 flex-col gap-4 rounded-lg overflow-clip">
-            <div class="flex md:justify-between flex-col md:flex-row gap-2">
-                <label for="" class="text-xl px-1 my-1 text-center">Name</label>
-                <input type="text" name="Name" class="text-sm text-blue-800 w-40 h-10 bg-cyan-200 opacity-60 ml-1 rounded-md md:w-64 md:text-xl focus:bg-cyan-400 focus:border-2 border-white" required placeholder="Enter your Name">
-            </div>
-            <div class="flex justify-between flex-col md:flex-row gap-2">
-                <label for="" class="text-xl px-1 my-1 text-center">Email</label>
-                <input type="email" name="Email" class="text-sm w-40 h-10 text-blue-800 bg-cyan-200 opacity-60 ml-1 rounded-md md:w-64 md:text-xl focus:bg-cyan-400 focus:border-2 border-white" required placeholder="ex-abc@gmail.com">
-            </div>
-            <div class="flex justify-start align-start md:justify-between flex-col md:flex-row gap-2">
-                <label for="" class="text-xl px-1 my-1 text-center">Message</label>
-                <textarea name="Message" id="" class="text-sm text-blue-800 w-40 h-16 bg-cyan-200 opacity-60 ml-1 rounded-md md:w-64 md:text-xl focus:bg-cyan-400 focus:border-2 border-white" placeholder="Enter Message"></textarea>
-            </div>
-            <button name="submit" class="bg-cyan-500 px-8 py-2 rounded-lg text-sm hover:bg-cyan-800 ease-in duration-300 hover:shadow-xl hover:text-red-400 hover:scale-110">Submit</button>
-            <span id="msg" class="bg-cyan-800 text-xl text-green-400 px-1 py-2 text-center animate-bounce font-semibold rounded-md hidden"></span>
-        </form>
+    <section id="aboutme" class="flex items-center justify-between px-4 py-8 bg-black text-white">
+        <p class="mb-4">I am Sareena Saji, a passionate Web Developer currently serving as an Intern at Muggle Works.
+            Hailing from the vibrant state of Kerala, India, I bring a blend of technical expertise and creative flair to
+            the field of web development. With a strong foundation in languages such as Php, Java, and C++, I thrive on
+            solving complex problems and leveraging object-oriented programming and database management skills. My
+            journey in computer science has been enriched by practical experiences, including personal projects like
+            Latex Management and Veggie Online, where I applied HTML, CSS, JavaScript, and PHP to create innovative web
+            applications.
+            My journey reflects not just a coder, but a tech enthusiast with a diverse set of skills and a zest for
+            innovation.</p>
+    </section>
+
+    <div class="w-auto flex flex-col m-2 gap-4 bg-cyan-300 p-6 justify-evenly md:flex-row" id="contactme">
+        <div class="social-icon mt-8 text-center">
+            <ul class="flex justify-center">
+                <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
+                    <a href="https://www.facebook.com/messages/t/SareenaSaji" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook text-black text-4xl line-height-16"></i>
+                    </a>
+                </li>
+                <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
+                    <a href="https://www.linkedin.com/in/sareena-saji-4671451b2" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin text-black text-4xl line-height-16"></i>
+                    </a>
+                </li>
+                <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
+                    <a href="https://www.instagram.com/_sareenasaji?igshid=YzAwZjE1ZTI0Zg==" target="_blank"
+                        aria-label="Instagram">
+                        <i class="fab fa-instagram text-black text-4xl line-height-16"></i>
+                    </a>
+                </li>
+                <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
+                    <a href="https://github.com/sareenasaji" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github text-black text-4xl line-height-16"></i>
+                    </a>
+                </li>
+                <li class="list-none mx-4 transform transition-transform duration-300 hover:scale-125">
+                    <a href="mailto:sareenasaji2000@gmail.com" target="_blank" aria-label="Email">
+                        <i class="far fa-envelope text-black text-4xl line-height-16"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-    
-    
+
+    <div class="flex">
+        <form name="submit-to-google-sheet"
+            class="flex bg-cyan-400 px-4 py-14 md:px-12 flex-col gap-4 rounded-lg overflow-clip">
+            <div class="flex md:flex-row gap-2">
+                <label for="" class="text-xl font-bold px-5 my-2 text-center">Name</label>
+                <input type="text" name="Name"
+                    class="text-sm text-blue-800 w-40 h-10 bg-cyan-200 opacity-60 ml-1 rounded-md md:w-64 md:text-xl focus:bg-cyan-400 focus:border-2 border-white"
+                    required placeholder="Enter your Name">
+            </div>
+            <div class="flex md:flex-row gap-2">
+                <label for="" class="text-xl font-bold px-5 my-2 text-center">Email</label>
+                <input type="email" name="Email"
+                    class="text-sm w-40 h-10 text-blue-800 bg-cyan-200 opacity-60 ml-1 rounded-md md:w-64 md:text-xl focus:bg-cyan-400 focus:border-2 border-white"
+                    required placeholder="ex-abc@gmail.com">
+            </div>
+            <div class="flex md:flex-row gap-2">
+                <label for="" class="text-xl font-bold px-5 my-2 text-center">Message</label>
+                <textarea name="Message" id=""
+                    class="text-sm text-blue-800 w-40 h-16 bg-cyan-200 opacity-60 ml-1 rounded-md md:w-64 md:text-xl focus:bg-cyan-400 focus:border-2 border-white"
+                    placeholder="Enter Message"></textarea>
+            </div>
+            <div class="flex justify-start">
+                <button name="submit"
+                    class="bg-cyan-500 px-2 py-3 rounded-lg text-lg font-bold hover:bg-cyan-800 ease-in duration-300 hover:shadow-xl hover:text-red-400 hover:scale-110 bg-white inline-block">Submit</button>
+            </div>
+            <span id="msg"
+                class="bg-cyan-800 text-xl text-green-400 px-1 py-2 text-center animate-bounce font-semibold rounded-md hidden"></span>
+        </form>
+        <div class="flex flex-col justify-center ml-4">
+            <!-- Adjusted margin here -->
+            <a href="https://drive.google.com/drive/folders/1nxIcrv-1-ucluWjgQJ1_RGzqpC5DHler" target="_blank"
+                class="text-black bg-cyan-500 px-4 py-2 rounded-lg text-lg font-bold hover:bg-cyan-800 ease-in duration-300 hover:shadow-xl hover:text-red-400 hover:scale-110 bg-white inline-flex items-center">
+                <i class="fas fa-file-download mr-2"></i>
+                My Resume
+            </a>
+        </div>
+    </div>
 </body>
 
 </html>
